@@ -77,6 +77,10 @@ The Android APK is signed with a different key than the Google Play build, so An
 
 On a Mac, unzip and move Authmeister to Applications. The app is signed with a Developer ID and notarized by Apple. To let Quick Access paste a code into the field you are typing in, allow Authmeister in System Settings › Privacy & Security › Accessibility. Without it, Return only copies the code. The Mac app does not update itself yet, so watch this repository (Watch › Custom › Releases) to hear about new versions.
 
+## Support
+
+Authmeister is free, and every feature works without paying. If the app has been useful, you can leave a tip on [Boosty](https://boosty.to/monoroh/donate). Tips are voluntary and unlock nothing.
+
 ## Feedback
 
 Found a bug or missing something? Open an [issue](https://github.com/Authmeister/authmeister/issues).
