@@ -1,0 +1,304 @@
+{
+  "schema": 1,
+  "releases": [
+    {
+      "version": "4.1.0",
+      "date": "2026-11-27",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "title": {
+        "en": "What's new in 4.1",
+        "ru": "Что нового в 4.1",
+        "de": "Neu in 4.1",
+        "es": "Novedades de la 4.1",
+        "fr": "Nouveautés de la 4.1",
+        "it": "Novità della 4.1",
+        "pt": "Novidades da 4.1",
+        "ja": "4.1 の新機能",
+        "zh": "4.1 新功能",
+        "ar": "الجديد في 4.1",
+        "hi": "4.1 में नया क्या है"
+      },
+      "pages": [
+        {
+          "title": {
+            "en": "Screen protection",
+            "ru": "Защита экрана",
+            "de": "Bildschirmschutz",
+            "es": "Protección de pantalla",
+            "fr": "Protection de l'écran",
+            "it": "Protezione schermo",
+            "pt": "Proteção de tela",
+            "ja": "画面保護",
+            "zh": "屏幕保护",
+            "ar": "حماية الشاشة",
+            "hi": "स्क्रीन सुरक्षा"
+          },
+          "text": {
+            "en": "Turn it on in Settings, Privacy. Screenshots, screen recordings and the app switcher then show nothing.",
+            "ru": "Включите в Настройках, раздел Приватность. На скриншотах, в записи экрана и в списке недавних приложений коды не будут видны.",
+            "de": "Unter Einstellungen, Datenschutz einschalten. Screenshots, Bildschirmaufnahmen und der App-Umschalter zeigen dann nichts.",
+            "es": "Actívala en Ajustes, Privacidad. Las capturas, las grabaciones de pantalla y el selector de apps no mostrarán nada.",
+            "fr": "Activez-la dans Réglages, Confidentialité. Les captures, les enregistrements d'écran et le sélecteur d'apps n'afficheront plus rien.",
+            "it": "Attivala in Impostazioni, Privacy. Screenshot, registrazioni dello schermo e selettore delle app non mostreranno nulla.",
+            "pt": "Ative em Ajustes, Privacidade. Capturas, gravações de tela e o seletor de apps não mostram mais nada.",
+            "ja": "設定のプライバシーでオンにすると、スクリーンショット、画面収録、アプリ切り替え画面に何も表示されません。",
+            "zh": "在设置的隐私中开启后，截屏、录屏和应用切换器中都不会显示内容。",
+            "ar": "فعّلها من الإعدادات، الخصوصية. لن تظهر الرموز بعدها في لقطات الشاشة أو تسجيلها أو مبدّل التطبيقات.",
+            "hi": "सेटिंग्स, प्राइवेसी में इसे चालू करें। स्क्रीनशॉट, स्क्रीन रिकॉर्डिंग और ऐप स्विचर में फिर कुछ नहीं दिखेगा।"
+          },
+          "media": {
+            "path": "media/4.1.0/screen-protection.gif",
+            "width": 480,
+            "height": 320,
+            "alt": {
+              "en": "The Screen protection switch turns on and the app goes dark in recent apps",
+              "ru": "Переключатель защиты экрана включается, и приложение темнеет в списке недавних"
+            }
+          }
+        },
+        {
+          "title": {
+            "en": "Safer PIN",
+            "ru": "Надежнее PIN",
+            "de": "Sichererer PIN",
+            "es": "PIN más seguro",
+            "fr": "Code PIN plus sûr",
+            "it": "PIN più sicuro",
+            "pt": "PIN mais seguro",
+            "ja": "より安全な PIN",
+            "zh": "更安全的 PIN",
+            "ar": "رمز PIN أكثر أمانًا",
+            "hi": "ज़्यादा सुरक्षित PIN"
+          },
+          "text": {
+            "en": "After five wrong PINs the keypad pauses, and the pause grows with every miss. Restarting the app does not skip it.",
+            "ru": "После пяти неверных PIN клавиатура делает паузу, и она растет с каждой ошибкой. Перезапуск приложения ее не сбрасывает.",
+            "de": "Nach fünf falschen PINs pausiert die Tastatur, mit jedem weiteren Fehler länger. Ein Neustart der App hebt die Pause nicht auf.",
+            "es": "Tras cinco PIN incorrectos el teclado hace una pausa que crece con cada error. Reiniciar la app no la salta.",
+            "fr": "Après cinq codes PIN erronés, le clavier se met en pause, plus longtemps à chaque erreur. Redémarrer l'app ne l'annule pas.",
+            "it": "Dopo cinque PIN errati il tastierino si ferma, sempre più a lungo a ogni errore. Riavviare l'app non la salta.",
+            "pt": "Depois de cinco PINs errados o teclado faz uma pausa, maior a cada erro. Reiniciar o app não a pula.",
+            "ja": "PIN を5回間違えるとキーパッドが一時停止し、間違えるたびに長くなります。アプリを再起動しても解除されません。",
+            "zh": "PIN 连续输错五次后键盘会暂停，每错一次时间更长。重启应用也无法跳过。",
+            "ar": "بعد خمسة رموز PIN خاطئة تتوقف لوحة الأرقام مؤقتًا، وتطول المدة مع كل خطأ. إعادة تشغيل التطبيق لا تتجاوزها.",
+            "hi": "पांच गलत PIN के बाद कीपैड रुक जाता है, और हर गलती पर यह रुकावट बढ़ती है। ऐप दोबारा खोलने से यह खत्म नहीं होती।"
+          },
+          "media": {
+            "path": "media/4.1.0/pin-pause.gif",
+            "width": 480,
+            "height": 360,
+            "alt": {
+              "en": "A wrong PIN starts a countdown on the lock screen",
+              "ru": "Неверный PIN запускает отсчет на экране блокировки"
+            }
+          }
+        },
+        {
+          "title": {
+            "en": "Sync after a new backup password",
+            "ru": "Синхронизация после смены пароля",
+            "de": "Sync nach neuem Backup-Passwort",
+            "es": "Sincronización tras cambiar la contraseña",
+            "fr": "Synchro après un nouveau mot de passe",
+            "it": "Sincronizzazione dopo una nuova password",
+            "pt": "Sincronização após nova senha",
+            "ja": "パスワード変更後の同期",
+            "zh": "更改备份密码后的同步",
+            "ar": "المزامنة بعد تغيير كلمة المرور",
+            "hi": "नए बैकअप पासवर्ड के बाद सिंक"
+          },
+          "text": {
+            "en": "Change the backup password on one device, and the others ask for the new one and keep syncing.",
+            "ru": "Смените пароль бэкапа на одном устройстве, и остальные попросят новый пароль и продолжат синхронизацию.",
+            "de": "Ändere das Backup-Passwort auf einem Gerät, und die anderen fragen nach dem neuen und synchronisieren weiter.",
+            "es": "Cambia la contraseña de la copia en un dispositivo y los demás pedirán la nueva y seguirán sincronizando.",
+            "fr": "Changez le mot de passe de sauvegarde sur un appareil, les autres demanderont le nouveau et continueront à se synchroniser.",
+            "it": "Cambia la password del backup su un dispositivo e gli altri chiederanno quella nuova continuando a sincronizzarsi.",
+            "pt": "Mude a senha do backup em um aparelho, e os outros pedem a nova e continuam sincronizando.",
+            "ja": "1台でバックアップのパスワードを変えると、ほかのデバイスは新しいパスワードを求めて同期を続けます。",
+            "zh": "在一台设备上更改备份密码后，其他设备会要求输入新密码并继续同步。",
+            "ar": "غيّر كلمة مرور النسخة الاحتياطية على جهاز واحد، وستطلب الأجهزة الأخرى الكلمة الجديدة وتواصل المزامنة.",
+            "hi": "एक डिवाइस पर बैकअप पासवर्ड बदलें, बाकी डिवाइस नया पासवर्ड मांगेंगे और सिंक करते रहेंगे।"
+          },
+          "media": {
+            "path": "media/4.1.0/sync-devices.png",
+            "width": 960,
+            "height": 640,
+            "alt": {
+              "en": "The device list marks an iPad still on the old backup password",
+              "ru": "Список устройств отмечает iPad, который еще на старом пароле"
+            }
+          }
+        }
+      ],
+      "button": {
+        "title": {
+          "en": "All release notes",
+          "ru": "Все заметки к выпускам",
+          "de": "Alle Versionshinweise",
+          "es": "Todas las notas de la versión",
+          "fr": "Toutes les notes de version",
+          "it": "Tutte le note di rilascio",
+          "pt": "Todas as notas da versão",
+          "ja": "すべてのリリースノート",
+          "zh": "全部版本说明",
+          "ar": "كل ملاحظات الإصدارات",
+          "hi": "सभी रिलीज़ नोट्स"
+        },
+        "url": "https://github.com/Authmeister/authmeister/releases"
+      }
+    },
+    {
+      "version": "4.1.0",
+      "date": "2026-11-27",
+      "platforms": [
+        "mac"
+      ],
+      "title": {
+        "en": "What's new in 4.1",
+        "ru": "Что нового в 4.1",
+        "de": "Neu in 4.1",
+        "es": "Novedades de la 4.1",
+        "fr": "Nouveautés de la 4.1",
+        "it": "Novità della 4.1",
+        "pt": "Novidades da 4.1",
+        "ja": "4.1 の新機能",
+        "zh": "4.1 新功能",
+        "ar": "الجديد في 4.1",
+        "hi": "4.1 में नया क्या है"
+      },
+      "pages": [
+        {
+          "title": {
+            "en": "Hide from screen sharing",
+            "ru": "Скрытие при показе экрана",
+            "de": "Bei Bildschirmfreigabe ausblenden",
+            "es": "Ocultar al compartir pantalla",
+            "fr": "Masquer lors du partage d'écran",
+            "it": "Nascondi durante la condivisione",
+            "pt": "Ocultar ao compartilhar a tela",
+            "ja": "画面共有から隠す",
+            "zh": "屏幕共享时隐藏",
+            "ar": "الإخفاء عند مشاركة الشاشة",
+            "hi": "स्क्रीन शेयरिंग से छिपाएँ"
+          },
+          "text": {
+            "en": "Turn it on in Settings, Security. Screenshots, recordings and screen sharing then show Authmeister windows as empty.",
+            "ru": "Включите в Настройках, раздел Безопасность. На скриншотах, в записи и при показе экрана окна Authmeister будут пустыми.",
+            "de": "Unter Einstellungen, Sicherheit einschalten. Screenshots, Aufnahmen und Bildschirmfreigabe zeigen Authmeister-Fenster dann leer.",
+            "es": "Actívalo en Ajustes, Seguridad. Las capturas, grabaciones y pantallas compartidas mostrarán vacías las ventanas de Authmeister.",
+            "fr": "Activez-le dans Réglages, Sécurité. Captures, enregistrements et partage d'écran afficheront les fenêtres d'Authmeister vides.",
+            "it": "Attivalo in Impostazioni, Sicurezza. Screenshot, registrazioni e condivisione dello schermo mostreranno vuote le finestre di Authmeister.",
+            "pt": "Ative em Ajustes, Segurança. Capturas, gravações e compartilhamento de tela mostram as janelas do Authmeister vazias.",
+            "ja": "設定のセキュリティでオンにすると、スクリーンショット、収録、画面共有で Authmeister のウインドウが空白になります。",
+            "zh": "在设置的安全中开启后，截图、录屏和屏幕共享中的 Authmeister 窗口将显示为空白。",
+            "ar": "فعّلها من الإعدادات، الأمان. ستظهر نوافذ Authmeister فارغة في لقطات الشاشة والتسجيلات ومشاركة الشاشة.",
+            "hi": "सेटिंग्स, सुरक्षा में इसे चालू करें। स्क्रीनशॉट, रिकॉर्डिंग और स्क्रीन शेयरिंग में Authmeister की विंडो खाली दिखेंगी।"
+          },
+          "media": {
+            "path": "media/4.1.0/mac-screen-sharing.png",
+            "width": 960,
+            "height": 640,
+            "alt": {
+              "en": "The screen sharing switch in Security settings",
+              "ru": "Переключатель в настройках безопасности"
+            }
+          }
+        },
+        {
+          "title": {
+            "en": "Safer PIN",
+            "ru": "Надежнее PIN",
+            "de": "Sichererer PIN",
+            "es": "PIN más seguro",
+            "fr": "Code PIN plus sûr",
+            "it": "PIN più sicuro",
+            "pt": "PIN mais seguro",
+            "ja": "より安全な PIN",
+            "zh": "更安全的 PIN",
+            "ar": "رمز PIN أكثر أمانًا",
+            "hi": "ज़्यादा सुरक्षित PIN"
+          },
+          "text": {
+            "en": "Wrong PINs pause the lock screen, and the pause survives quitting the app.",
+            "ru": "Неверные PIN ставят экран блокировки на паузу, и она сохраняется после выхода из приложения.",
+            "de": "Falsche PINs pausieren den Sperrbildschirm, auch über das Beenden der App hinaus.",
+            "es": "Los PIN incorrectos pausan la pantalla de bloqueo, incluso después de salir de la app.",
+            "fr": "Les codes PIN erronés mettent l'écran de verrouillage en pause, même après avoir quitté l'app.",
+            "it": "I PIN errati mettono in pausa la schermata di blocco, anche dopo aver chiuso l'app.",
+            "pt": "PINs errados pausam a tela de bloqueio, mesmo depois de sair do app.",
+            "ja": "PIN を間違えるとロック画面が一時停止し、アプリを終了しても続きます。",
+            "zh": "PIN 输错后锁定屏幕会暂停，退出应用后依然有效。",
+            "ar": "تؤدي رموز PIN الخاطئة إلى إيقاف شاشة القفل مؤقتًا، ويبقى الإيقاف حتى بعد إنهاء التطبيق.",
+            "hi": "गलत PIN लॉक स्क्रीन को रोक देते हैं, और ऐप बंद करने पर भी यह रुकावट बनी रहती है।"
+          },
+          "media": {
+            "path": "media/4.1.0/mac-pin.png",
+            "width": 960,
+            "height": 640,
+            "alt": {
+              "en": "The Mac lock screen asking to try again later",
+              "ru": "Экран блокировки Mac просит повторить позже"
+            }
+          }
+        },
+        {
+          "title": {
+            "en": "Clearer sync",
+            "ru": "Понятнее синхронизация",
+            "de": "Klarere Synchronisierung",
+            "es": "Sincronización más clara",
+            "fr": "Synchronisation plus claire",
+            "it": "Sincronizzazione più chiara",
+            "pt": "Sincronização mais clara",
+            "ja": "わかりやすい同期",
+            "zh": "更清晰的同步",
+            "ar": "مزامنة أوضح",
+            "hi": "साफ़ सिंक"
+          },
+          "text": {
+            "en": "The device list shows which devices still use the old backup password.",
+            "ru": "В списке устройств видно, какие из них еще на старом пароле бэкапа.",
+            "de": "Die Geräteliste zeigt, welche Geräte noch das alte Backup-Passwort verwenden.",
+            "es": "La lista de dispositivos muestra cuáles usan aún la contraseña anterior.",
+            "fr": "La liste des appareils indique ceux qui utilisent encore l'ancien mot de passe.",
+            "it": "L'elenco dei dispositivi mostra quali usano ancora la vecchia password del backup.",
+            "pt": "A lista de aparelhos mostra quais ainda usam a senha antiga do backup.",
+            "ja": "デバイス一覧に、古いバックアップパスワードのままのデバイスが表示されます。",
+            "zh": "设备列表会显示哪些设备仍在使用旧的备份密码。",
+            "ar": "تعرض قائمة الأجهزة الأجهزة التي لا تزال تستخدم كلمة مرور النسخة الاحتياطية القديمة.",
+            "hi": "डिवाइस सूची दिखाती है कि कौन से डिवाइस अभी भी पुराने बैकअप पासवर्ड पर हैं।"
+          },
+          "media": {
+            "path": "media/4.1.0/sync-devices.png",
+            "width": 960,
+            "height": 640,
+            "alt": {
+              "en": "The device list marks an iPad still on the old backup password",
+              "ru": "Список устройств отмечает iPad, который еще на старом пароле"
+            }
+          }
+        }
+      ],
+      "button": {
+        "title": {
+          "en": "All release notes",
+          "ru": "Все заметки к выпускам",
+          "de": "Alle Versionshinweise",
+          "es": "Todas las notas de la versión",
+          "fr": "Toutes les notes de version",
+          "it": "Tutte le note di rilascio",
+          "pt": "Todas as notas da versão",
+          "ja": "すべてのリリースノート",
+          "zh": "全部版本说明",
+          "ar": "كل ملاحظات الإصدارات",
+          "hi": "सभी रिलीज़ नोट्स"
+        },
+        "url": "https://github.com/Authmeister/authmeister/releases"
+      }
+    }
+  ]
+}
