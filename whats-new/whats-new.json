@@ -5,8 +5,7 @@
       "version": "4.1.0",
       "date": "2026-11-27",
       "platforms": [
-        "android",
-        "ios"
+        "android"
       ],
       "title": {
         "en": "What's new in 4.1",
@@ -48,6 +47,155 @@
             "zh": "在设置的隐私中开启后，截屏、录屏和应用切换器中都不会显示内容。",
             "ar": "فعّلها من الإعدادات، الخصوصية. لن تظهر الرموز بعدها في لقطات الشاشة أو تسجيلها أو مبدّل التطبيقات.",
             "hi": "सेटिंग्स, प्राइवेसी में इसे चालू करें। स्क्रीनशॉट, स्क्रीन रिकॉर्डिंग और ऐप स्विचर में फिर कुछ नहीं दिखेगा।"
+          },
+          "media": {
+            "path": "media/4.1.0/screen-protection.gif",
+            "width": 480,
+            "height": 320,
+            "alt": {
+              "en": "The Screen protection switch turns on and the app goes dark in recent apps",
+              "ru": "Переключатель защиты экрана включается, и приложение темнеет в списке недавних"
+            }
+          }
+        },
+        {
+          "title": {
+            "en": "Safer PIN",
+            "ru": "Надежнее PIN",
+            "de": "Sichererer PIN",
+            "es": "PIN más seguro",
+            "fr": "Code PIN plus sûr",
+            "it": "PIN più sicuro",
+            "pt": "PIN mais seguro",
+            "ja": "より安全な PIN",
+            "zh": "更安全的 PIN",
+            "ar": "رمز PIN أكثر أمانًا",
+            "hi": "ज़्यादा सुरक्षित PIN"
+          },
+          "text": {
+            "en": "After five wrong PINs the keypad pauses, and the pause grows with every miss. Restarting the app does not skip it.",
+            "ru": "После пяти неверных PIN клавиатура делает паузу, и она растет с каждой ошибкой. Перезапуск приложения ее не сбрасывает.",
+            "de": "Nach fünf falschen PINs pausiert die Tastatur, mit jedem weiteren Fehler länger. Ein Neustart der App hebt die Pause nicht auf.",
+            "es": "Tras cinco PIN incorrectos el teclado hace una pausa que crece con cada error. Reiniciar la app no la salta.",
+            "fr": "Après cinq codes PIN erronés, le clavier se met en pause, plus longtemps à chaque erreur. Redémarrer l'app ne l'annule pas.",
+            "it": "Dopo cinque PIN errati il tastierino si ferma, sempre più a lungo a ogni errore. Riavviare l'app non la salta.",
+            "pt": "Depois de cinco PINs errados o teclado faz uma pausa, maior a cada erro. Reiniciar o app não a pula.",
+            "ja": "PIN を5回間違えるとキーパッドが一時停止し、間違えるたびに長くなります。アプリを再起動しても解除されません。",
+            "zh": "PIN 连续输错五次后键盘会暂停，每错一次时间更长。重启应用也无法跳过。",
+            "ar": "بعد خمسة رموز PIN خاطئة تتوقف لوحة الأرقام مؤقتًا، وتطول المدة مع كل خطأ. إعادة تشغيل التطبيق لا تتجاوزها.",
+            "hi": "पांच गलत PIN के बाद कीपैड रुक जाता है, और हर गलती पर यह रुकावट बढ़ती है। ऐप दोबारा खोलने से यह खत्म नहीं होती।"
+          },
+          "media": {
+            "path": "media/4.1.0/pin-pause.gif",
+            "width": 480,
+            "height": 360,
+            "alt": {
+              "en": "A wrong PIN starts a countdown on the lock screen",
+              "ru": "Неверный PIN запускает отсчет на экране блокировки"
+            }
+          }
+        },
+        {
+          "title": {
+            "en": "Sync after a new backup password",
+            "ru": "Синхронизация после смены пароля",
+            "de": "Sync nach neuem Backup-Passwort",
+            "es": "Sincronización tras cambiar la contraseña",
+            "fr": "Synchro après un nouveau mot de passe",
+            "it": "Sincronizzazione dopo una nuova password",
+            "pt": "Sincronização após nova senha",
+            "ja": "パスワード変更後の同期",
+            "zh": "更改备份密码后的同步",
+            "ar": "المزامنة بعد تغيير كلمة المرور",
+            "hi": "नए बैकअप पासवर्ड के बाद सिंक"
+          },
+          "text": {
+            "en": "Change the backup password on one device, and the others ask for the new one and keep syncing.",
+            "ru": "Смените пароль бэкапа на одном устройстве, и остальные попросят новый пароль и продолжат синхронизацию.",
+            "de": "Ändere das Backup-Passwort auf einem Gerät, und die anderen fragen nach dem neuen und synchronisieren weiter.",
+            "es": "Cambia la contraseña de la copia en un dispositivo y los demás pedirán la nueva y seguirán sincronizando.",
+            "fr": "Changez le mot de passe de sauvegarde sur un appareil, les autres demanderont le nouveau et continueront à se synchroniser.",
+            "it": "Cambia la password del backup su un dispositivo e gli altri chiederanno quella nuova continuando a sincronizzarsi.",
+            "pt": "Mude a senha do backup em um aparelho, e os outros pedem a nova e continuam sincronizando.",
+            "ja": "1台でバックアップのパスワードを変えると、ほかのデバイスは新しいパスワードを求めて同期を続けます。",
+            "zh": "在一台设备上更改备份密码后，其他设备会要求输入新密码并继续同步。",
+            "ar": "غيّر كلمة مرور النسخة الاحتياطية على جهاز واحد، وستطلب الأجهزة الأخرى الكلمة الجديدة وتواصل المزامنة.",
+            "hi": "एक डिवाइस पर बैकअप पासवर्ड बदलें, बाकी डिवाइस नया पासवर्ड मांगेंगे और सिंक करते रहेंगे।"
+          },
+          "media": {
+            "path": "media/4.1.0/sync-devices.png",
+            "width": 960,
+            "height": 640,
+            "alt": {
+              "en": "The device list marks an iPad still on the old backup password",
+              "ru": "Список устройств отмечает iPad, который еще на старом пароле"
+            }
+          }
+        }
+      ],
+      "button": {
+        "title": {
+          "en": "All release notes",
+          "ru": "Все заметки к выпускам",
+          "de": "Alle Versionshinweise",
+          "es": "Todas las notas de la versión",
+          "fr": "Toutes les notes de version",
+          "it": "Tutte le note di rilascio",
+          "pt": "Todas as notas da versão",
+          "ja": "すべてのリリースノート",
+          "zh": "全部版本说明",
+          "ar": "كل ملاحظات الإصدارات",
+          "hi": "सभी रिलीज़ नोट्स"
+        },
+        "url": "https://github.com/Authmeister/authmeister/releases"
+      }
+    },
+    {
+      "version": "4.1.0",
+      "date": "2026-11-27",
+      "platforms": [
+        "ios"
+      ],
+      "title": {
+        "en": "What's new in 4.1",
+        "ru": "Что нового в 4.1",
+        "de": "Neu in 4.1",
+        "es": "Novedades de la 4.1",
+        "fr": "Nouveautés de la 4.1",
+        "it": "Novità della 4.1",
+        "pt": "Novidades da 4.1",
+        "ja": "4.1 の新機能",
+        "zh": "4.1 新功能",
+        "ar": "الجديد في 4.1",
+        "hi": "4.1 में नया क्या है"
+      },
+      "pages": [
+        {
+          "title": {
+            "en": "Screen protection",
+            "ru": "Защита экрана",
+            "de": "Bildschirmschutz",
+            "es": "Protección de pantalla",
+            "fr": "Protection de l'écran",
+            "it": "Protezione schermo",
+            "pt": "Proteção de tela",
+            "ja": "画面保護",
+            "zh": "屏幕保护",
+            "ar": "حماية الشاشة",
+            "hi": "स्क्रीन सुरक्षा"
+          },
+          "text": {
+            "en": "Turn it on in Settings, Privacy. The app is then hidden in the app switcher and while the screen is recorded or mirrored. iOS does not let apps block screenshots.",
+            "ru": "Включите в Настройках, раздел Приватность. Приложение будет скрыто в переключателе приложений и во время записи или трансляции экрана. Скриншоты iOS запретить не дает.",
+            "de": "Unter Einstellungen, Datenschutz einschalten. Die App wird dann im App-Umschalter und während einer Bildschirmaufnahme oder Spiegelung verborgen. Screenshots kann iOS nicht verhindern.",
+            "es": "Actívala en Ajustes, Privacidad. La app se oculta en el selector de apps y mientras se graba o se duplica la pantalla. iOS no permite bloquear capturas de pantalla.",
+            "fr": "Activez-la dans Réglages, Confidentialité. L'app est alors masquée dans le sélecteur d'apps et pendant l'enregistrement ou la recopie de l'écran. iOS ne permet pas de bloquer les captures d'écran.",
+            "it": "Attivala in Impostazioni, Privacy. L'app viene nascosta nel selettore delle app e durante la registrazione o la duplicazione dello schermo. iOS non permette di bloccare gli screenshot.",
+            "pt": "Ative em Ajustes, Privacidade. O app fica oculto no seletor de apps e durante a gravação ou o espelhamento da tela. O iOS não permite bloquear capturas de tela.",
+            "ja": "設定のプライバシーでオンにします。Appスイッチャーと、画面収録やミラーリングの間はアプリが隠れます。iOSではスクリーンショットを防ぐことはできません。",
+            "zh": "在设置的隐私中开启。应用会在应用切换器中以及录屏或投屏时隐藏。iOS 不允许应用阻止截图。",
+            "ar": "فعّلها من الإعدادات، الخصوصية. يُخفى التطبيق بعدها في مبدّل التطبيقات وأثناء تسجيل الشاشة أو بثها. لا يسمح iOS للتطبيقات بمنع لقطات الشاشة.",
+            "hi": "इसे सेटिंग्स, प्राइवेसी में चालू करें। इसके बाद ऐप स्विचर में और स्क्रीन रिकॉर्डिंग या मिररिंग के दौरान ऐप छिपा रहेगा। iOS ऐप्स को स्क्रीनशॉट रोकने नहीं देता।"
           },
           "media": {
             "path": "media/4.1.0/screen-protection.gif",
